@@ -9,6 +9,14 @@
 	<key>NSAppTransportSecurity</key>
 <dict>
   <key>NSAllowsArbitraryLoads</key>
+  <key>NSPhotoLibraryUsageDescription</key>
+  <key>NSCameraUsageDescription</key>
+  <key>NSMicrophoneUsageDescription</key>
+  <key>LSApplicationQueriesSchemes</key>
+<array>
+  <string>https</string>
+  <string>http</string>
+</array>
   <true/>
 </dict>
 	<key>CFBundleIdentifier</key>
